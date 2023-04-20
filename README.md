@@ -45,8 +45,10 @@ rotopic echo /webcam
 ```
 #### Para hacer la calibracion de la camara
 ```
-roslaunch vision imshow.launch
+roslaunch vision impublish.launch
 rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.0246 --no-service-check image:=/webcam camera:=/webcam
 ```
+#### En los ultimos 2 parametros se coloca el topico que publica lo que ve la camara
+#### En los parametros size y square se coloca el tamaño del patron y de los recuadros
 
 
