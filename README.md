@@ -28,7 +28,7 @@ Referencias: [camera_calibration](http://wiki.ros.org/camera_calibration#camerac
 ## Crear paquete (O descargalo de aqui)
 ```
 cd ws/src
-catin_create_pkg vision rospy cv_bridge sensor_msgs
+catkin_create_pkg vision rospy cv_bridge sensor_msgs
 ```
 #### Copia el imshow.launch y el image_publisher.py 
 ```
